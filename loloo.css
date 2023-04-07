@@ -1,0 +1,234 @@
+body{
+    background-color: black;
+}
+
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color:rgb(245, 166, 179);
+}
+
+button {
+    border-width: 2px;
+     border-color: black;
+      color: rgb(0, 0, 0);
+       font-style: italic;
+        font-weight: 700;
+         padding: 12px 12px;
+         background-color:rgb(245, 166, 179);
+         cursor: pointer;
+         width: 85px;
+         line-height: 30px;
+         margin-top: 21px;
+         margin-left: 76px;
+         
+}
+
+
+/*
+
+ماااااااااعم نزبط الخلفية تصير بيضا 
+div button:hover {
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+   
+*/
+
+
+
+.right-section{
+width: 30%;
+height: 100%;
+float: right;
+background-color:pink ;
+}
+.hh{
+    float: left;
+    line-height: 100px;
+    padding: 0px 15px;
+ 
+}
+.ll{
+height: 100%;
+border-radius: 50%;
+}
+
+nav{
+    width: 70%;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 465px;
+    
+    border-top: 4px solid black;
+    animation-name: changebackroundcolor;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes changebackroundcolor{
+    0%{
+background-color:white;
+    }
+    25%{
+background-color:pink ;   
+    }
+    100%{
+background-color: black;
+    }
+}
+
+aside{
+width: 30%;
+height: 100%;
+background-color:black;
+text-align: center;
+float: left;
+ }
+
+.img{
+width: 100%;
+height: 390px; 
+border-right: 12px;
+}
+
+/*
+.box{
+    border-bottom: 4px solid rgb(245, 166, 179);
+}
+*/
+
+.box :hover{
+    width: 50px;
+}
+
+article{
+    width: 70%;
+    height: 450px;
+    float: right;
+    
+}
+
+.pp{
+    width: 600px;
+    height:287px;
+    background-color:rgb(245, 166, 179);
+    text-align: center;
+    margin-left: 18.5%;
+    margin-top: 11%;
+}
+ 
+ .h1{
+    border-bottom: 3px white solid;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 500;
+}
+
+footer a{
+    height: 100px;
+    width: 10px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.left-section{
+width: 70%;
+
+height: 100px;
+padding:0px 22px; 
+
+}
+
+
+a{
+color: white;
+font-weight: bold; 
+text-decoration: none;
+line-height: 100px;
+width: 100px;
+border: 20px;
+}
+
+.right-section{
+    width: 60px;
+    height: 100px;
+    background-color: rgb(223, 95, 223);
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    padding: 5px 5px 5px 300px ;
+    background-color: rgb(223, 95, 223);
+}
+
+ 
+.div1{
+text-align: left;
+
+
+}
+
+header a:hover{
+    background-color: white;
+    color: black;
+    height:100%;
+    
+}
+@media screen and(orientation:landscape){
+
+}
+*/
